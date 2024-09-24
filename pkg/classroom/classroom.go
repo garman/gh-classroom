@@ -140,7 +140,7 @@ func NewAcceptedAssignmentList(assignments []AcceptedAssignment) AcceptedAssignm
 }
 
 func (a AssignmentList) Url() string {
-	return fmt.Sprintf(a.Classroom.Url)
+	return fmt.Sprintf("%v", a.Classroom.Url)
 }
 
 func (a Assignment) Url() string {
